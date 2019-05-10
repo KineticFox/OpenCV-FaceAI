@@ -20,7 +20,7 @@ class Window(tkinter.Frame):
 		self.calc.pack(side="left")
 
 	def rand(self):
-		self.textB.set(random.randint(1,21))
+		self.textB.set(random.randint(1,21)) #just for testing tkinter
 
 root = tkinter.Tk()
 app = Window(root)
